@@ -1,0 +1,437 @@
+:Monkey: seed=1449721649787 count=20000
+:AllowPackage: cn.jianguo.qinzi
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: 25.0%
+//   6: 15.0%
+//   7: 2.0%
+//   8: 2.0%
+//   9: 1.0%
+//   10: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=cn.jianguo.qinzi/com.babyrun.view.activity.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=cn.jianguo.qinzi/com.babyrun.view.activity.SplashActivity } in package cn.jianguo.qinzi
+:Sending Touch (ACTION_DOWN): 0:(478.0,658.0)
+:Sending Touch (ACTION_UP): 0:(489.48007,672.75354)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(515.0,666.0)
+:Sending Touch (ACTION_UP): 0:(520.68915,666.8516)
+:Sending Touch (ACTION_DOWN): 0:(49.0,916.0)
+:Sending Touch (ACTION_UP): 0:(86.20726,972.95795)
+:Sending Touch (ACTION_DOWN): 0:(436.0,1044.0)
+:Sending Touch (ACTION_UP): 0:(429.03958,1040.065)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.bbk.launcher2/.Launcher } in package com.bbk.launcher2
+:Sending Touch (ACTION_DOWN): 0:(386.0,725.0)
+:Sending Touch (ACTION_UP): 0:(352.09283,846.09937)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(227.0,232.0)
+:Sending Touch (ACTION_UP): 0:(249.45776,234.15639)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=cn.jianguo.qinzi/com.babyrun.view.activity.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=cn.jianguo.qinzi/com.babyrun.view.activity.SplashActivity } in package cn.jianguo.qinzi
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+    //[calendar_time:2015-11-27 19:40:44.320  system_uptime:185245125]
+    // Sending event #100
+:Sending Touch (ACTION_DOWN): 0:(38.0,944.0)
+:Sending Touch (ACTION_UP): 0:(36.730602,925.669)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(75.0,819.0)
+:Sending Touch (ACTION_UP): 0:(72.99689,814.99097)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(24.0,354.0)
+:Sending Touch (ACTION_UP): 0:(20.218163,335.69583)
+:Sending Touch (ACTION_DOWN): 0:(233.0,339.0)
+:Sending Touch (ACTION_UP): 0:(234.8219,345.10184)
+:Sending Touch (ACTION_DOWN): 0:(147.0,10.0)
+:Sending Touch (ACTION_UP): 0:(129.72992,6.2621837)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(687.0,1090.0)
+:Sending Touch (ACTION_UP): 0:(630.50415,1128.372)
+    //[calendar_time:2015-11-27 19:40:46.847  system_uptime:185247562]
+    // Sending event #200
+    //[calendar_time:2015-11-27 19:40:46.947  system_uptime:185247663]
+    // Sending event #200
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cmp=com.bbk.SuperPowerSave/.SuperPowerSaveActivity } in package com.bbk.SuperPowerSave
+:Sending Touch (ACTION_DOWN): 0:(532.0,1038.0)
+:Sending Touch (ACTION_UP): 0:(481.44476,1060.745)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(665.0,227.0)
+:Sending Touch (ACTION_UP): 0:(670.77844,228.54097)
+:Sending Touch (ACTION_DOWN): 0:(494.0,461.0)
+:Sending Touch (ACTION_UP): 0:(587.6981,529.66187)
+:Sending Touch (ACTION_DOWN): 0:(161.0,1208.0)
+:Sending Touch (ACTION_UP): 0:(219.9025,1157.2914)
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.baidu.searchbox/.SearchActivity } in package com.baidu.searchbox
+:Sending Touch (ACTION_DOWN): 0:(381.0,511.0)
+:Sending Touch (ACTION_UP): 0:(387.12076,514.9583)
+:Sending Touch (ACTION_DOWN): 0:(339.0,301.0)
+:Sending Touch (ACTION_UP): 0:(345.4226,301.3979)
+:Sending Touch (ACTION_DOWN): 0:(232.0,493.0)
+:Sending Touch (ACTION_UP): 0:(198.46591,565.6474)
+    //[calendar_time:2015-11-27 19:40:48.914  system_uptime:185249629]
+    // Sending event #300
+:Sending Touch (ACTION_DOWN): 0:(440.0,706.0)
+:Sending Touch (ACTION_UP): 0:(446.12573,706.17786)
+:Sending Touch (ACTION_DOWN): 0:(670.0,804.0)
+:Sending Touch (ACTION_UP): 0:(668.0511,805.7748)
+:Sending Touch (ACTION_DOWN): 0:(569.0,1070.0)
+:Sending Touch (ACTION_UP): 0:(573.6446,1071.3378)
+:Sending Touch (ACTION_DOWN): 0:(672.0,1075.0)
+:Sending Touch (ACTION_UP): 0:(720.0,1025.6669)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(497.0,824.0)
+:Sending Touch (ACTION_UP): 0:(493.73676,825.59155)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(91.0,1169.0)
+:Sending Touch (ACTION_UP): 0:(85.80533,1163.6307)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+    //[calendar_time:2015-11-27 19:40:50.677  system_uptime:185251393]
+    // Sending event #400
+:Sending Touch (ACTION_DOWN): 0:(259.0,323.0)
+:Sending Touch (ACTION_UP): 0:(254.92291,341.68457)
+:Sending Touch (ACTION_DOWN): 0:(189.0,897.0)
+:Sending Touch (ACTION_UP): 0:(201.5127,897.03754)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(151.0,936.0)
+:Sending Touch (ACTION_UP): 0:(139.02318,929.95825)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=cn.jianguo.qinzi/com.babyrun.view.activity.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=cn.jianguo.qinzi/com.babyrun.view.activity.SplashActivity } in package cn.jianguo.qinzi
+:Sending Touch (ACTION_DOWN): 0:(234.0,793.0)
+:Sending Touch (ACTION_UP): 0:(175.11433,752.4713)
+:Sending Touch (ACTION_DOWN): 0:(474.0,940.0)
+:Sending Touch (ACTION_UP): 0:(463.72922,921.6197)
+:Sending Touch (ACTION_DOWN): 0:(633.0,564.0)
+:Sending Touch (ACTION_UP): 0:(630.7534,554.51624)
+:Sending Touch (ACTION_DOWN): 0:(96.0,323.0)
+:Sending Touch (ACTION_UP): 0:(84.88667,301.25443)
+:Sending Touch (ACTION_DOWN): 0:(188.0,439.0)
+:Sending Touch (ACTION_UP): 0:(190.79805,450.27692)
+    // Allowing start of Intent { cmp=cn.jianguo.qinzi/com.babyrun.view.activity.MainActivity } in package cn.jianguo.qinzi
+    // activityResuming(cn.jianguo.qinzi)
+:Sending Touch (ACTION_DOWN): 0:(570.0,910.0)
+:Sending Touch (ACTION_UP): 0:(518.2508,891.9378)
+:Sending Touch (ACTION_DOWN): 0:(211.0,329.0)
+:Sending Touch (ACTION_UP): 0:(195.07475,331.8145)
+:Sending Touch (ACTION_DOWN): 0:(43.0,368.0)
+:Sending Touch (ACTION_UP): 0:(32.129997,388.67432)
+:Sending Touch (ACTION_DOWN): 0:(163.0,814.0)
+:Sending Touch (ACTION_UP): 0:(156.11041,828.1309)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(605.0,423.0)
+:Sending Touch (ACTION_UP): 0:(564.30505,391.35785)
+:Sending Touch (ACTION_DOWN): 0:(636.0,1197.0)
+:Sending Touch (ACTION_UP): 0:(638.86505,1193.933)
+    //[calendar_time:2015-11-27 19:40:55.235  system_uptime:185255950]
+    // Sending event #500
+:Sending Touch (ACTION_DOWN): 0:(66.0,294.0)
+:Sending Touch (ACTION_UP): 0:(71.81222,317.10593)
+:Sending Touch (ACTION_DOWN): 0:(132.0,15.0)
+:Sending Touch (ACTION_UP): 0:(78.26676,103.35238)
+:Sending Touch (ACTION_DOWN): 0:(19.0,786.0)
+:Sending Touch (ACTION_UP): 0:(39.293068,790.66974)
+:Sending Touch (ACTION_DOWN): 0:(705.0,565.0)
+:Sending Touch (ACTION_UP): 0:(720.0,588.72095)
+:Sending Touch (ACTION_DOWN): 0:(249.0,324.0)
+:Sending Touch (ACTION_UP): 0:(240.89978,318.14386)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(498.0,450.0)
+:Sending Touch (ACTION_UP): 0:(503.68158,452.33798)
+:Sending Touch (ACTION_DOWN): 0:(533.0,595.0)
+:Sending Touch (ACTION_UP): 0:(538.33984,582.53723)
+:Sending Touch (ACTION_DOWN): 0:(24.0,571.0)
+:Sending Touch (ACTION_UP): 0:(4.697529,587.5818)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+    //[calendar_time:2015-11-27 19:40:57.611  system_uptime:185258326]
+    // Sending event #600
+:Sending Touch (ACTION_DOWN): 0:(141.0,732.0)
+:Sending Touch (ACTION_UP): 0:(150.43489,732.27954)
+:Sending Touch (ACTION_DOWN): 0:(494.0,151.0)
+:Sending Touch (ACTION_UP): 0:(491.95944,153.2047)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=cn.jianguo.qinzi/com.babyrun.view.activity.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=cn.jianguo.qinzi/com.babyrun.view.activity.SplashActivity } in package cn.jianguo.qinzi
+:Sending Touch (ACTION_DOWN): 0:(154.0,1068.0)
+:Sending Touch (ACTION_UP): 0:(155.40056,1069.038)
+:Sending Touch (ACTION_DOWN): 0:(25.0,350.0)
+:Sending Touch (ACTION_UP): 0:(26.893307,348.42102)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(272.0,305.0)
+:Sending Touch (ACTION_UP): 0:(251.88373,284.65698)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(287.0,372.0)
+:Sending Touch (ACTION_UP): 0:(285.1798,379.89853)
+:Sending Touch (ACTION_DOWN): 0:(243.0,366.0)
+:Sending Touch (ACTION_UP): 0:(271.0915,366.91452)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cmp=com.bbk.SuperPowerSave/.SuperPowerSaveActivity } in package com.bbk.SuperPowerSave
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // Rejecting start of Intent { act=android.settings.WIFI_SETTINGS cmp=com.android.wcnsettings/.Settings$WifiSettingsActivity } in package com.android.wcnsettings
+    //[calendar_time:2015-11-27 19:41:00.772  system_uptime:185261487]
+    // Sending event #700
+:Sending Touch (ACTION_DOWN): 0:(220.0,104.0)
+:Sending Touch (ACTION_UP): 0:(220.94518,100.67435)
+:Sending Touch (ACTION_DOWN): 0:(502.0,1088.0)
+:Sending Touch (ACTION_UP): 0:(506.6367,1091.7991)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(485.0,558.0)
+:Sending Touch (ACTION_UP): 0:(525.26733,579.3333)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=cn.jianguo.qinzi/com.babyrun.view.activity.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=cn.jianguo.qinzi/com.babyrun.view.activity.SplashActivity } in package cn.jianguo.qinzi
+:Sending Touch (ACTION_DOWN): 0:(445.0,1194.0)
+:Sending Touch (ACTION_UP): 0:(558.884,1083.7742)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.bbk.launcher2/.Launcher } in package com.bbk.launcher2
+    // activityResuming(com.android.phone)
+    // Rejecting resume of package com.android.phone
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(185.0,652.0)
+:Sending Touch (ACTION_UP): 0:(190.64569,652.10205)
+:Sending Touch (ACTION_DOWN): 0:(442.0,165.0)
+:Sending Touch (ACTION_UP): 0:(433.35815,179.91962)
+:Sending Touch (ACTION_DOWN): 0:(225.0,1221.0)
+:Sending Touch (ACTION_UP): 0:(153.22371,1173.5336)
+    //[calendar_time:2015-11-27 19:41:03.175  system_uptime:185263890]
+    // Sending event #800
+    //[calendar_time:2015-11-27 19:41:03.276  system_uptime:185263991]
+    // Sending event #800
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(485.0,87.0)
+:Sending Touch (ACTION_UP): 0:(570.69037,0.0)
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.baidu.searchbox/.SearchActivity } in package com.baidu.searchbox
+:Sending Touch (ACTION_DOWN): 0:(81.0,30.0)
+:Sending Touch (ACTION_UP): 0:(81.50531,38.759315)
+:Sending Touch (ACTION_DOWN): 0:(84.0,251.0)
+:Sending Touch (ACTION_UP): 0:(23.836937,250.47275)
+:Sending Touch (ACTION_DOWN): 0:(621.0,1093.0)
+:Sending Touch (ACTION_UP): 0:(633.002,1112.8969)
+:Sending Touch (ACTION_DOWN): 0:(452.0,358.0)
+:Sending Touch (ACTION_UP): 0:(452.951,315.9259)
+    //[calendar_time:2015-11-27 19:41:05.772  system_uptime:185266487]
+    // Sending event #900
+    //[calendar_time:2015-11-27 19:41:05.873  system_uptime:185266588]
+    // Sending event #900
+:Sending Touch (ACTION_DOWN): 0:(169.0,315.0)
+:Sending Touch (ACTION_UP): 0:(94.897316,313.9207)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=cn.jianguo.qinzi/com.babyrun.view.activity.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=cn.jianguo.qinzi/com.babyrun.view.activity.SplashActivity } in package cn.jianguo.qinzi
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=cn.jianguo.qinzi/com.babyrun.view.activity.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=cn.jianguo.qinzi/com.babyrun.view.activity.SplashActivity } in package cn.jianguo.qinzi
+:Sending Touch (ACTION_DOWN): 0:(109.0,220.0)
+:Sending Touch (ACTION_UP): 0:(122.67126,217.2822)
+:Sending Flip keyboardOpen=false
+:Sending Touch (ACTION_DOWN): 0:(194.0,281.0)
+:Sending Touch (ACTION_UP): 0:(201.15881,272.22467)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+    // Allowing start of Intent { cmp=cn.jianguo.qinzi/com.babyrun.view.activity.MainActivity } in package cn.jianguo.qinzi
+    // activityResuming(cn.jianguo.qinzi)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(378.0,588.0)
+:Sending Touch (ACTION_UP): 0:(372.89984,580.55817)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(182.0,403.0)
+:Sending Touch (ACTION_UP): 0:(178.2516,410.5468)
+    //[calendar_time:2015-11-27 19:41:09.510  system_uptime:185270226]
+    // Sending event #1000
+    //[calendar_time:2015-11-27 19:41:09.611  system_uptime:185270326]
+    // Sending event #1000
+:Sending Flip keyboardOpen=true
+:Sending Touch (ACTION_DOWN): 0:(453.0,663.0)
+:Sending Touch (ACTION_UP): 0:(474.59467,677.7839)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=cn.jianguo.qinzi/com.babyrun.view.activity.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=cn.jianguo.qinzi/com.babyrun.view.activity.SplashActivity } in package cn.jianguo.qinzi
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=cn.jianguo.qinzi/com.babyrun.view.activity.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=cn.jianguo.qinzi/com.babyrun.view.activity.SplashActivity } in package cn.jianguo.qinzi
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(615.0,982.0)
+:Sending Touch (ACTION_UP): 0:(636.4006,987.4727)
+:Sending Touch (ACTION_DOWN): 0:(248.0,323.0)
+:Sending Touch (ACTION_UP): 0:(239.10416,317.1148)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+    // Rejecting start of Intent { act=android.settings.WIFI_SETTINGS cmp=com.android.wcnsettings/.Settings$WifiSettingsActivity } in package com.android.wcnsettings
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(166.0,693.0)
+:Sending Touch (ACTION_UP): 0:(148.5938,693.11646)
+:Sending Touch (ACTION_DOWN): 0:(208.0,636.0)
+:Sending Touch (ACTION_UP): 0:(222.3347,620.0627)
+    //[calendar_time:2015-11-27 19:41:11.890  system_uptime:185272606]
+    // Sending event #1100
+    //[calendar_time:2015-11-27 19:41:11.991  system_uptime:185272706]
+    // Sending event #1100
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Flip keyboardOpen=false
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(659.0,756.0)
+:Sending Touch (ACTION_UP): 0:(720.0,659.8285)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(43.0,246.0)
+:Sending Touch (ACTION_UP): 0:(105.4335,259.67715)
+:Sending Touch (ACTION_DOWN): 0:(406.0,793.0)
+:Sending Touch (ACTION_UP): 0:(389.0596,799.19385)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(556.0,963.0)
+:Sending Touch (ACTION_UP): 0:(559.4121,961.9542)
+    //[calendar_time:2015-11-27 19:41:14.030  system_uptime:185274745]
+    // Sending event #1200
+    //[calendar_time:2015-11-27 19:41:14.131  system_uptime:185274846]
+    // Sending event #1200
+:Sending Touch (ACTION_DOWN): 0:(529.0,552.0)
+:Sending Touch (ACTION_UP): 0:(544.79706,530.5441)
+:Sending Touch (ACTION_DOWN): 0:(687.0,676.0)
+:Sending Touch (ACTION_UP): 0:(693.3164,676.36304)
+:Sending Touch (ACTION_DOWN): 0:(278.0,1084.0)
+:Sending Touch (ACTION_UP): 0:(271.42877,1090.1055)
+:Sending Touch (ACTION_DOWN): 0:(304.0,1035.0)
+:Sending Touch (ACTION_UP): 0:(304.5374,1037.844)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(169.0,1022.0)
+:Sending Touch (ACTION_UP): 0:(259.53464,980.473)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(68.0,1252.0)
+:Sending Touch (ACTION_UP): 0:(70.111946,1257.3153)
+:Sending Touch (ACTION_DOWN): 0:(577.0,65.0)
+:Sending Touch (ACTION_UP): 0:(567.26465,69.90505)
+:Sending Touch (ACTION_DOWN): 0:(671.0,618.0)
+:Sending Touch (ACTION_UP): 0:(672.8445,612.84454)
+:Sending Touch (ACTION_DOWN): 0:(492.0,871.0)
+:Sending Touch (ACTION_UP): 0:(489.03223,870.22784)
+:Sending Touch (ACTION_DOWN): 0:(156.0,911.0)
+:Sending Touch (ACTION_UP): 0:(155.16077,908.35144)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+    //[calendar_time:2015-11-27 19:41:16.721  system_uptime:185277437]
+    // Sending event #1300
+:Sending Touch (ACTION_DOWN): 0:(273.0,190.0)
+:Sending Touch (ACTION_UP): 0:(273.94955,191.58511)
+:Sending Touch (ACTION_DOWN): 0:(419.0,287.0)
+:Sending Touch (ACTION_UP): 0:(428.44904,287.68704)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(696.0,238.0)
+:Sending Touch (ACTION_UP): 0:(699.6187,236.92352)
+:Sending Touch (ACTION_DOWN): 0:(222.0,763.0)
+:Sending Touch (ACTION_UP): 0:(223.33363,762.75726)
+:Sending Touch (ACTION_DOWN): 0:(571.0,217.0)
+:Sending Touch (ACTION_UP): 0:(571.01587,228.63264)
+:Sending Touch (ACTION_DOWN): 0:(370.0,145.0)
+:Sending Touch (ACTION_UP): 0:(369.4223,148.11676)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(545.0,865.0)
+:Sending Touch (ACTION_UP): 0:(561.611,881.97675)
+    // Rejecting start of Intent { act=android.intent.action.MAIN cmp=com.bbk.SuperPowerSave/.SuperPowerSaveActivity } in package com.bbk.SuperPowerSave
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+    //[calendar_time:2015-11-27 19:41:20.249  system_uptime:185280965]
+    // Sending event #1400
+:Sending Touch (ACTION_DOWN): 0:(245.0,671.0)
+:Sending Touch (ACTION_UP): 0:(249.17857,686.92706)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=cn.jianguo.qinzi/com.babyrun.view.activity.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=cn.jianguo.qinzi/com.babyrun.view.activity.SplashActivity } in package cn.jianguo.qinzi
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=cn.jianguo.qinzi/com.babyrun.view.activity.SplashActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=cn.jianguo.qinzi/com.babyrun.view.activity.SplashActivity } in package cn.jianguo.qinzi
+:Sending Touch (ACTION_DOWN): 0:(281.0,357.0)
+:Sending Touch (ACTION_UP): 0:(252.39734,433.4675)
+:Sending Touch (ACTION_DOWN): 0:(676.0,76.0)
+:Sending Touch (ACTION_UP): 0:(720.0,107.546234)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(666.0,1102.0)
+:Sending Touch (ACTION_UP): 0:(565.4109,1096.3862)
+:Sending Touch (ACTION_DOWN): 0:(91.0,554.0)
+:Sending Touch (ACTION_UP): 0:(87.143234,556.4392)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(471.0,1171.0)
+:Sending Touch (ACTION_UP): 0:(482.868,1171.2223)
+:Sending Touch (ACTION_DOWN): 0:(300.0,825.0)
+:Sending Touch (ACTION_UP): 0:(294.08508,819.641)
+:Sending Touch (ACTION_DOWN): 0:(265.0,316.0)
+    //[calendar_time:2015-11-27 19:41:22.746  system_uptime:185283461]
+    // Sending event #1500
+:Sending Touch (ACTION_UP): 0:(211.88995,185.87703)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-5.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(403.0,977.0)
+:Sending Touch (ACTION_UP): 0:(526.0334,963.5266)
+:Sending Touch (ACTION_DOWN): 0:(200.0,366.0)
+:Sending Touch (ACTION_UP): 0:(194.08151,367.55136)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(67.0,1260.0)
+:Sending Touch (ACTION_UP): 0:(12.117202,1090.746)
+    //[calendar_time:2015-11-27 19:41:24.146  system_uptime:185284862]
+    // Sending event #1600
+    //[calendar_time:2015-11-27 19:41:24.247  system_uptime:185284963]
+    // Sending event #1600
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(434.0,1066.0)
+:Sending Touch (ACTION_UP): 0:(436.14008,1067.4791)
+:Sending Touch (ACTION_DOWN): 0:(272.0,145.0)
+:Sending Touch (ACTION_UP): 0:(262.48096,137.70242)
+:Sending Touch (ACTION_DOWN): 0:(173.0,714.0)
+:Sending Touch (ACTION_UP): 0:(173.4176,708.6667)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(600.0,618.0)
+:Sending Touch (ACTION_UP): 0:(599.603,639.1104)
+:Sending Touch (ACTION_DOWN): 0:(203.0,423.0)
+:Sending Touch (ACTION_UP): 0:(203.47989,427.63977)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(61.0,741.0)
+:Sending Touch (ACTION_UP): 0:(68.06183,748.68365)
+    //[calendar_time:2015-11-27 19:41:27.395  system_uptime:185288111]
+    // Sending event #1700
+    //[calendar_time:2015-11-27 19:41:27.497  system_uptime:185288212]
+    // Sending event #1700
+:Sending Touch (ACTION_DOWN): 0:(347.0,315.0)
+:Sending Touch (ACTION_UP): 0:(348.86624,288.10965)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(575.0,120.0)
+:Sending Touch (ACTION_UP): 0:(559.06793,120.47914)
+:Sending Touch (ACTION_DOWN): 0:(485.0,1277.0)
+:Sending Touch (ACTION_UP): 0:(481.34952,1280.0)
+:Sending Touch (ACTION_DOWN): 0:(673.0,615.0)
+:Sending Touch (ACTION_UP): 0:(618.7676,730.41345)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(292.0,269.0)
+:Sending Touch (ACTION_UP): 0:(348.13818,300.61346)
+:Sending Touch (ACTION_DOWN): 0:(337.0,913.0)
+:Sending Touch (ACTION_UP): 0:(343.20193,913.4481)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(26.0,1093.0)
+:Sending Touch (ACTION_UP): 0:(21.189596,1103.0089)
+    //[calendar_time:2015-11-27 19:41:29.278  system_uptime:185289994]
+    // Sending event #1800
+    //[calendar_time:2015-11-27 19:41:29.379  system_uptime:185290095]
+    // Sending event #1800
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
