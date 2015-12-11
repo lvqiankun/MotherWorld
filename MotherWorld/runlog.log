@@ -12080,3 +12080,45 @@ build:
 
 BUILD SUCCESSFUL
 Total time: 2 seconds
+Updated file C:\Users\Administrator\git\MotherWorld\MotherWorld\build.xml
+Buildfile: C:\Users\Administrator\git\MotherWorld\MotherWorld\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 22.0.1
+     [echo] Resolving Build Target for MotherWorld...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to C:\Users\Administrator\git\MotherWorld\MotherWorld\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\Administrator\git\MotherWorld\MotherWorld\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\Administrator\git\MotherWorld\MotherWorld\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\Administrator\git\MotherWorld\MotherWorld\bin\MotherWorld.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 17 seconds
