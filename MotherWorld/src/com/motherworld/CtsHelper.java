@@ -124,9 +124,9 @@ public class CtsHelper {
 	 * 传入： 工程工作空间，class全名，jarname,androidid，SDK路径
 	 * @param paramater
 	 */
-	public CtsHelper(String workspase,String className,String jarName,String androidId,String sdkpath){
+	public CtsHelper(String workspace,String className,String jarName,String androidId,String sdkpath){
 		
-		this.workspace=workspase+"\\";
+		this.workspace=workspace+"\\";
 		this.className_FullName=className;
 		this.jarName=jarName;
 		this.androidId=androidId;
