@@ -16,7 +16,7 @@ public class login extends UiAutomatorTestCase{
     	String className = "com.motherworld.login";
 //    	String testName = "testDemo01";
     	String androidId = "1";
-    	String workspace = "E:\\workspace\\MotherWorld";
+    	String workspace = "E:\\jenkins-1.623\\jobs\\UiAutomator Test\\workspace\\MotherWorld";
     	String sdkpath = "D:\\sdk";
     	CtsHelper cts = new CtsHelper(workspace,className,jarName,androidId,sdkpath);
     	cts.setDevices("1f6ca714");

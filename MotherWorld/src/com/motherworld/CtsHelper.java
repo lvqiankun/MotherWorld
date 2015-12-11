@@ -23,7 +23,7 @@ public class CtsHelper {
 	 * 4.运行TestPlan
 	 */
 	//输入参数，改变以下参数来适配不同的类
-	private String workspace="E:\\workspace\\MotherWorld";
+	private String workspace="E:\\jenkins-1.623\\jobs\\UiAutomator Test\\workspace\\MotherWorld";
 	private String className_FullName="com.motherworld.login";
 	private String jarName="CalculatorCaseCTS";
 	private String androidId="1";
