@@ -12122,3 +12122,183 @@ build:
 
 BUILD SUCCESSFUL
 Total time: 17 seconds
+Updated file D:\eclipse32\MotherWorld\MotherWorld\build.xml
+Buildfile: D:\eclipse32\MotherWorld\MotherWorld\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 22.0.1
+     [echo] Resolving Build Target for MotherWorld...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: D:\eclipse32\MotherWorld\MotherWorld\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 12 source files to D:\eclipse32\MotherWorld\MotherWorld\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: D:\eclipse32\MotherWorld\MotherWorld\src\com\beetstra\jutf7\CharsetProvider.javaʹ����δ�����򲻰�ȫ�Ĳ�����
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:unchecked ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\eclipse32\MotherWorld\MotherWorld\bin\classes
+      [dex] Converting compiled files and external libraries into D:\eclipse32\MotherWorld\MotherWorld\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\eclipse32\MotherWorld\MotherWorld\bin\MotherWorld.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+Updated file D:\eclipse32\MotherWorld\MotherWorld\build.xml
+Buildfile: D:\eclipse32\MotherWorld\MotherWorld\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 22.0.1
+     [echo] Resolving Build Target for MotherWorld...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: D:\eclipse32\MotherWorld\MotherWorld\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 12 source files to D:\eclipse32\MotherWorld\MotherWorld\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: D:\eclipse32\MotherWorld\MotherWorld\src\com\beetstra\jutf7\CharsetProvider.javaʹ����δ�����򲻰�ȫ�Ĳ�����
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:unchecked ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\eclipse32\MotherWorld\MotherWorld\bin\classes
+      [dex] Converting compiled files and external libraries into D:\eclipse32\MotherWorld\MotherWorld\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\eclipse32\MotherWorld\MotherWorld\bin\MotherWorld.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+Updated file D:\eclipse32\MotherWorld\MotherWorld\build.xml
+Updated file D:\eclipse32\MotherWorld\MotherWorld\build.xml
+Buildfile: D:\eclipse32\MotherWorld\MotherWorld\build.xml
+
+help:
+     [echo] Android Ant Build. Available targets:
+     [echo]    help:      Displays this help.
+     [echo]    clean:     Removes output files created by other targets.
+     [echo]    build:     Builds the test library.
+     [echo]    install:   Installs the library on a connected device or
+     [echo]               emulator.
+     [echo]    test:      Runs the tests.
+     [echo] 
+     [echo] It is possible to mix targets. For instance:
+     [echo]    ant build install test
+     [echo] This will build, install and run the test in a single command.
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+Buildfile: D:\eclipse32\MotherWorld\MotherWorld\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 22.0.1
+     [echo] Resolving Build Target for MotherWorld...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\eclipse32\MotherWorld\MotherWorld\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\eclipse32\MotherWorld\MotherWorld\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\eclipse32\MotherWorld\MotherWorld\bin\MotherWorld.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Updated file D:\eclipse32\MotherWorld\MotherWorld\build.xml
+Buildfile: D:\eclipse32\MotherWorld\MotherWorld\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 22.0.1
+     [echo] Resolving Build Target for MotherWorld...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\eclipse32\MotherWorld\MotherWorld\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\eclipse32\MotherWorld\MotherWorld\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\eclipse32\MotherWorld\MotherWorld\bin\MotherWorld.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second

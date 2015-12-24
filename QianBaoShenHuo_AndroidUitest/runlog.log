@@ -1,0 +1,87 @@
+Updated file D:\workspace\QianBaoShenHuo_AndroidUitest\build.xml
+Buildfile: D:\workspace\QianBaoShenHuo_AndroidUitest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 22.0.1
+     [echo] Resolving Build Target for QianBaoShengHuo_LCCB...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 3 source files to D:\workspace\QianBaoShenHuo_AndroidUitest\bin\classes
+    [javac] 警告: [options] 源值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 目标值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 要隐藏有关已过时选项的警告, 请使用 -Xlint:-options。
+    [javac] D:\workspace\QianBaoShenHuo_AndroidUitest\src\com\qianbaoshenghuo\CtsHelper.java:19: 警告: 编码UTF-8的不可映射字符
+    [javac] 	 * 思路??
+    [javac] 	     ^
+    [javac] D:\workspace\QianBaoShenHuo_AndroidUitest\src\com\qianbaoshenghuo\CtsHelper.java:20: 警告: 编码UTF-8的不可映射字符
+    [javac] 	 * 1.编译且复制jar包到CTS TestCase目录??
+    [javac] 	                             ^
+    [javac] D:\workspace\QianBaoShenHuo_AndroidUitest\src\com\qianbaoshenghuo\CtsHelper.java:42: 警告: 编码UTF-8的不可映射字符
+    [javac] 	//以下字段不需要改??
+    [javac] 	          ^
+    [javac] D:\workspace\QianBaoShenHuo_AndroidUitest\src\com\qianbaoshenghuo\CtsHelper.java:124: 警告: 编码UTF-8的不可映射字符
+    [javac] 	 * 传入?? 工程工作空间，class全名，jarname,androidid，SDK路径
+    [javac] 	     ^
+    [javac] D:\workspace\QianBaoShenHuo_AndroidUitest\src\com\qianbaoshenghuo\CtsHelper.java:145: 警告: 编码UTF-8的不可映射字符
+    [javac] 		//编译 将编译的jar复制到CTS testcase目录??
+    [javac] 		                             ^
+    [javac] D:\workspace\QianBaoShenHuo_AndroidUitest\src\com\qianbaoshenghuo\CtsHelper.java:157: 警告: 编码UTF-8的不可映射字符
+    [javac] 		//输出log文件路径和结果文件路??
+    [javac] 		                 ^
+    [javac] D:\workspace\QianBaoShenHuo_AndroidUitest\src\com\qianbaoshenghuo\CtsHelper.java:166: 警告: 编码UTF-8的不可映射字符
+    [javac] 	 * ??求：多个手机情况下，指定某个手机运行
+    [javac] 	   ^
+    [javac] D:\workspace\QianBaoShenHuo_AndroidUitest\src\com\qianbaoshenghuo\CtsHelper.java:189: 警告: 编码UTF-8的不可映射字符
+    [javac] 	 * ??求：获取tools下jar路径组合为cp 格式字符??
+    [javac] 	   ^
+    [javac] D:\workspace\QianBaoShenHuo_AndroidUitest\src\com\qianbaoshenghuo\CtsHelper.java:189: 警告: 编码UTF-8的不可映射字符
+    [javac] 	 * ??求：获取tools下jar路径组合为cp 格式字符??
+    [javac] 	                              ^
+    [javac] D:\workspace\QianBaoShenHuo_AndroidUitest\src\com\qianbaoshenghuo\CtsHelper.java:210: 警告: 编码UTF-8的不可映射字符
+    [javac] 		//风起于青萍之末，英雄不问出处,??之凿凿，句句在理
+    [javac] 		                 ^
+    [javac] D:\workspace\QianBaoShenHuo_AndroidUitest\src\com\qianbaoshenghuo\CtsHelper.java:224: 警告: 编码UTF-8的不可映射字符
+    [javac] 			//TestSuite 按点分开逐步??  com.lenovo.uitest.calculator.CalculatorCase_V2_1
+    [javac] 			                  ^
+    [javac] D:\workspace\QianBaoShenHuo_AndroidUitest\src\com\qianbaoshenghuo\CtsHelper.java:237: 警告: 编码UTF-8的不可映射字符
+    [javac] 			//与suite同数??
+    [javac] 			          ^
+    [javac] D:\workspace\QianBaoShenHuo_AndroidUitest\src\com\qianbaoshenghuo\CtsHelper.java:262: 警告: 编码UTF-8的不可映射字符
+    [javac] 	 * 保存内容到指定文??
+    [javac] 	           ^
+    [javac] D:\workspace\QianBaoShenHuo_AndroidUitest\src\com\qianbaoshenghuo\CtsHelper.java:325: 警告: 编码UTF-8的不可映射字符
+    [javac] 	 * 获取??有的用例名，文件解析方式
+    [javac] 	     ^
+    [javac] D:\workspace\QianBaoShenHuo_AndroidUitest\src\com\qianbaoshenghuo\CtsHelper.java:362: 警告: 编码UTF-8的不可映射字符
+    [javac] 	 * ??求：获取结果路径，log路径
+    [javac] 	   ^
+    [javac] 18 个警告
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\workspace\QianBaoShenHuo_AndroidUitest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\workspace\QianBaoShenHuo_AndroidUitest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\workspace\QianBaoShenHuo_AndroidUitest\bin\QianBaoShengHuo_LCCB.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
