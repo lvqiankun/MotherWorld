@@ -16,14 +16,14 @@ import java.util.regex.Pattern;
 public class CtsHelper {
 	/*
 	 * 本类用于在CTS框架中运行uiautomator 基于Android 4.4 CTS
-	 * 思路�?
-	 * 1.编译且复制jar包到CTS TestCase目录�?
+	 * 思路�?
+	 * 1.编译且复制jar包到CTS TestCase目录�?
 	 * 2.依据CTS框架格式创建TestCase 
 	 * 3.依据CTS框架格式创建TestPlan
 	 * 4.运行TestPlan
 	 */
 	//输入参数，改变以下参数来适配不同的类
-	private String workspace="D:\\jenkins-1.623\\jobs\\UiAutomator Test\\workspace\\QiaoBaoShengHuo_AndroidUitest";
+	private String workspace="D:\\eclipse32\\MotherWorld\\QianBaoShenHuo_AndroidUitest";
 	private String className_FullName="com.qianbaoshenghuo.login";
 	private String jarName="CalculatorCaseCTS";
 	private String androidId="1";
@@ -39,7 +39,7 @@ public class CtsHelper {
 	String fileName="";
 	
 	
-	//以下字段不需要改�?
+	//以下字段不需要改�?
 	//TestCase XML文件字段
 	private String testCase_sc_1="<?xml version="+"\"1.0\"" +" encoding="+"\"UTF-8\""+"?>";
 	private String testCase_TestPackage_2="<TestPackage " ;
@@ -121,7 +121,7 @@ public class CtsHelper {
 	}
 	
 	/**
-	 * 传入�? 工程工作空间，class全名，jarname,androidid，SDK路径
+	 * 传入�? 工程工作空间，class全名，jarname,androidid，SDK路径
 	 * @param paramater
 	 */
 	public CtsHelper(String workspace,String className,String jarName,String androidId,String sdkpath){
@@ -142,7 +142,7 @@ public class CtsHelper {
 	 * 整体运行步骤
 	 */
 	 void runTest(){
-		//编译 将编译的jar复制到CTS testcase目录�?
+		//编译 将编译的jar复制到CTS testcase目录�?
 		String testName="";		
 		new UiAutomatorHelper(jarName, className_FullName, testName, androidId, (ctsPath_testCase+jarName+".jar").replaceAll(";", ""));			
 		//创建xml  testCase.xml  testplan.xml
@@ -154,7 +154,7 @@ public class CtsHelper {
 		}else{
 		execCmd(getRunCtsCmd("test"+jarName+"TestPlan"));
 		}
-		//输出log文件路径和结果文件路�?
+		//输出log文件路径和结果文件路�?
 		 System.out.println("***************************");
 	        for(String s:listResultPath){
 	        	System.out.println(s);
@@ -163,7 +163,7 @@ public class CtsHelper {
 		
 	}
 	/**
-	 * �?求：多个手机情况下，指定某个手机运行
+	 * �?求：多个手机情况下，指定某个手机运行
 	 * @param dev
 	 */
 	public void setDevices(String dev){
@@ -186,7 +186,7 @@ public class CtsHelper {
 	
 	}
 	/**
-	 * �?求：获取tools下jar路径组合为cp 格式字符�?
+	 * �?求：获取tools下jar路径组合为cp 格式字符�?
 	 * @return
 	 */
 	private String getToolsJar(){
@@ -207,7 +207,7 @@ public class CtsHelper {
 	 * @param xmlName 文件名加.xml
 	 */
 	private void createTestCaseXml(String xmlName){
-		//风起于青萍之末，英雄不问出处,�?之凿凿，句句在理
+		//风起于青萍之末，英雄不问出处,�?之凿凿，句句在理
 		 File caseFile=new File(ctsPath_testCase+xmlName);
 		    if (caseFile.exists()) {
 				caseFile.delete();
@@ -221,7 +221,7 @@ public class CtsHelper {
 			saveFile(xmlName, ctsPath_testCase, testCase_testType_5);
 			saveFile(xmlName, ctsPath_testCase, testCase_jarPath_6.replace("REPLAY", jarName+".jar"));
 			saveFile(xmlName, ctsPath_testCase, testCase_version_7);
-			//TestSuite 按点分开逐步�?  com.lenovo.uitest.calculator.CalculatorCase_V2_1
+			//TestSuite 按点分开逐步�?  com.lenovo.uitest.calculator.CalculatorCase_V2_1
 			String[] testSuite=className_FullName.split("\\.");
 			for(int i=0;i<testSuite.length-1;i++){
 				saveFile(xmlName, ctsPath_testCase, testCase_TestSuite.replace("REPLAY", testSuite[i]));
@@ -234,7 +234,7 @@ public class CtsHelper {
 				saveFile(xmlName, ctsPath_testCase, testCase_Test.replace("REPLAY", s));
 			}            
 			saveFile(xmlName, ctsPath_testCase, testCase_endTestCase);
-			//与suite同数�?
+			//与suite同数�?
 			for(int i=0;i<testSuite.length-1;i++){
 				saveFile(xmlName, ctsPath_testCase, testCase_endTestSuite);
 			}
@@ -259,7 +259,7 @@ public class CtsHelper {
 	}
 	
 	/**
-	 * 保存内容到指定文�?
+	 * 保存内容到指定文�?
 	 * @param fileName
 	 * @param path
 	 * @param line
@@ -322,7 +322,7 @@ public class CtsHelper {
 		}
 	}
 	/**
-	 * 获取�?有的用例名，文件解析方式
+	 * 获取�?有的用例名，文件解析方式
 	 * @param filePath
 	 * @return
 	 */
@@ -359,7 +359,7 @@ public class CtsHelper {
 	     return testCase;
 	    }
 	/**
-	 * �?求：获取结果路径，log路径
+	 * �?求：获取结果路径，log路径
 	 * @return
 	 */
 	private String getResultInfo(String line){

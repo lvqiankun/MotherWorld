@@ -14,10 +14,11 @@ public class login extends UiAutomatorTestCase{
     	String className = "com.qianbaoshenghuo.login";
 //    	String testName = "testDemo01";
     	String androidId = "1";
-    	String workspace = "D:\\jenkins-1.623\\jobs\\workspace\\QiaoBaoShengHuo_AndroidUitest";
+    	String workspace = "D:\\eclipse32\\MotherWorld\\QianBaoShenHuo_AndroidUitest";
+//    	D:\jenkins-1.623\jobs\workspace\QiaoBaoShengHuo_AndroidUitest\QianBaoShenHuo_AndroidUitest\src\com\qianbaoshenghuo
     	String sdkPath = "D:\\sdk";
     	CtsHelper cts = new CtsHelper(workspace,className,jarName,androidId,sdkPath);
-    	cts.setDevices("");
+    	cts.setDevices("*");
     	cts.runTest();
 	}
 	public  void test_01_startApp() throws IOException{

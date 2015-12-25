@@ -5,5 +5,6 @@
 	<classpathentry kind="lib" path="D:/sdk/CtsHelper.jar"/>
 	<classpathentry kind="lib" path="D:/sdk/platforms/android-19/android.jar"/>
 	<classpathentry kind="lib" path="D:/sdk/platforms/android-19/uiautomator.jar"/>
+	<classpathentry kind="lib" path="D:/CtsHelper.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
