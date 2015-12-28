@@ -30,6 +30,7 @@ public class login extends UiAutomatorTestCase{
     		e1.printStackTrace();
     	}
     }
+	
 	public void test_02_userLogin() throws UiObjectNotFoundException{
     	UiObject mine = new UiObject(new UiSelector().resourceId("com.qianbao.lccb:id/rb_footer3"));
     	mine.click();

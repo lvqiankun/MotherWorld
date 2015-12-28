@@ -102,7 +102,8 @@ public class CtsHelper {
             		androidId=args[i+1];
             }else if(args[i].equals("--sdk_path")){
             		sdkPath=args[i+1];
-            }else
+            }
+            else
              if(args[i].equals("-s")){
              		devices=args[i+1];
              }
