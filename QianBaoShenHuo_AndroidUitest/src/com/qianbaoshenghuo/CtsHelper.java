@@ -103,10 +103,10 @@ public class CtsHelper {
             }else if(args[i].equals("--sdk_path")){
             		sdkPath=args[i+1];
             }
-            else
-             if(args[i].equals("-s")){
-             		devices=args[i+1];
-             }
+//            else
+//             if(args[i].equals("-s")){
+//             		devices=args[i+1];
+//             }
         }
         CtsHelper cts=new CtsHelper(workspase, className, jarName, androidId, sdkPath);
 //        cts.setDevices(devices);
