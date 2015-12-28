@@ -527,3 +527,413 @@ build:
 
 BUILD SUCCESSFUL
 Total time: 2 seconds
+
+       Usage:
+       android [global options] create uitest-project [action options]
+       Global options:
+  -s --silent     : Silent mode, shows errors only.
+  -v --verbose    : Verbose mode, shows errors, warnings and all messages.
+     --clear-cache: Clear the SDK Manager repository manifest cache.
+  -h --help       : Help on a specific command.
+
+                                Action "create uitest-project":
+  Creates a new UI test project.
+Options:
+  -n --name    : Project name.
+  -p --path    : The new project's directory. [required]
+  -t --target  : Target ID of the new project. [required]
+Error: Oops, it looks like you didn't provide an argument for '-n'.
+'-t' was found instead.
+Buildfile: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 22.0.1
+     [echo] Resolving Build Target for QianBaoShengHuo_LCCB...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 3 source files to D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes
+      [dex] Converting compiled files and external libraries into D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\QianBaoShengHuo_LCCB.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+
+       Usage:
+       android [global options] create uitest-project [action options]
+       Global options:
+  -s --silent     : Silent mode, shows errors only.
+  -v --verbose    : Verbose mode, shows errors, warnings and all messages.
+     --clear-cache: Clear the SDK Manager repository manifest cache.
+  -h --help       : Help on a specific command.
+
+                                Action "create uitest-project":
+  Creates a new UI test project.
+Options:
+  -n --name    : Project name.
+  -p --path    : The new project's directory. [required]
+  -t --target  : Target ID of the new project. [required]
+Error: Oops, it looks like you didn't provide an argument for '-n'.
+'-t' was found instead.
+Buildfile: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 22.0.1
+     [echo] Resolving Build Target for QianBaoShengHuo_LCCB...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\QianBaoShengHuo_LCCB.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+
+       Usage:
+       android [global options] create uitest-project [action options]
+       Global options:
+  -s --silent     : Silent mode, shows errors only.
+  -v --verbose    : Verbose mode, shows errors, warnings and all messages.
+     --clear-cache: Clear the SDK Manager repository manifest cache.
+  -h --help       : Help on a specific command.
+
+                                Action "create uitest-project":
+  Creates a new UI test project.
+Options:
+  -n --name    : Project name.
+  -p --path    : The new project's directory. [required]
+  -t --target  : Target ID of the new project. [required]
+Error: Oops, it looks like you didn't provide an argument for '-n'.
+'-t' was found instead.
+Buildfile: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 22.0.1
+     [echo] Resolving Build Target for QianBaoShengHuo_LCCB...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes.dex...
+
+       Usage:
+       android [global options] create uitest-project [action options]
+       Global options:
+  -s --silent     : Silent mode, shows errors only.
+  -v --verbose    : Verbose mode, shows errors, warnings and all messages.
+     --clear-cache: Clear the SDK Manager repository manifest cache.
+  -h --help       : Help on a specific command.
+
+                                Action "create uitest-project":
+  Creates a new UI test project.
+Options:
+  -n --name    : Project name.
+  -p --path    : The new project's directory. [required]
+  -t --target  : Target ID of the new project. [required]
+Error: Oops, it looks like you didn't provide an argument for '-n'.
+'-t' was found instead.
+Buildfile: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 22.0.1
+     [echo] Resolving Build Target for QianBaoShengHuo_LCCB...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\QianBaoShengHuo_LCCB.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Updated file D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\build.xml
+Buildfile: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 22.0.1
+     [echo] Resolving Build Target for QianBaoShengHuo_LCCB...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\QianBaoShengHuo_LCCB.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Updated file D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\build.xml
+Buildfile: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 22.0.1
+     [echo] Resolving Build Target for QianBaoShengHuo_LCCB...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\QianBaoShengHuo_LCCB.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+Updated file D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\build.xml
+Buildfile: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 22.0.1
+     [echo] Resolving Build Target for QianBaoShengHuo_LCCB...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\QianBaoShengHuo_LCCB.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+Updated file D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\build.xml
+Buildfile: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 22.0.1
+     [echo] Resolving Build Target for QianBaoShengHuo_LCCB...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\QianBaoShengHuo_LCCB.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+Updated file D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\build.xml
+Buildfile: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at D:\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 22.0.1
+     [echo] Resolving Build Target for QianBaoShengHuo_LCCB...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\eclipse32\MotherWorld\QianBaoShenHuo_AndroidUitest\bin\QianBaoShengHuo_LCCB.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second

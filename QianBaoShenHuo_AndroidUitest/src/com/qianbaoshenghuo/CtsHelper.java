@@ -108,7 +108,7 @@ public class CtsHelper {
              }
         }
         CtsHelper cts=new CtsHelper(workspase, className, jarName, androidId, sdkPath);
-        cts.setDevices(devices);
+//        cts.setDevices(devices);
         cts.runTest();
        
         
@@ -166,10 +166,10 @@ public class CtsHelper {
 	 * �?求：多个手机情况下，指定某个手机运行
 	 * @param dev
 	 */
-	public void setDevices(String dev){
-		this.devices=" -s "+dev;
-	}
-	
+//	public void setDevices(String dev){
+//		this.devices=" -s "+dev;
+//	}
+//	
 	
 	/**
 	 * 生成CTS运行命令，基于Android 4.4
